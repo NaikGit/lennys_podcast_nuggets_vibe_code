@@ -2,9 +2,9 @@ import './globals.css';
 import type { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'Nudge Store',
+  title: "Insight Atlas: Lessons from Lenny's Podcast",
   description:
-    'A category-first library of leadership and AI learnings from podcast conversations.'
+    "A category-first atlas of leadership and AI learnings from Lenny's Podcast conversations."
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

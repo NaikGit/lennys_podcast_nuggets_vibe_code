@@ -251,8 +251,8 @@ export function NudgeStore({ initialNudges }: Props) {
   return (
     <main className={styles.page}>
       <header className={styles.hero}>
-        <p className={styles.eyebrow}>Podcast Learnings Library</p>
-        <h1>Nudge Store</h1>
+        <p className={styles.eyebrow}>Insight Atlas</p>
+        <h1>Lessons from Lenny&apos;s Podcast</h1>
         <p className={styles.subtitle}>
           Browse concise, reusable learnings across leadership and AI topics,
           with episode traceability and cross-conversation synthesis.

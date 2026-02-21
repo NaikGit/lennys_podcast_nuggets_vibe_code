@@ -1,8 +1,8 @@
-# Nudge Store
+# Insight Atlas: Lessons from Lenny's Podcast
 
 A transcript-driven learning library inspired by themes from Lenny's Podcast.
 
-Nudge Store turns long-form conversations into concise, reusable nuggets across categories like:
+Insight Atlas turns long-form conversations into concise, reusable nuggets across categories like:
 - AI
 - Leadership
 - Team Management
