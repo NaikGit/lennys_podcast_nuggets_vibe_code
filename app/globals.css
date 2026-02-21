@@ -1,0 +1,38 @@
+:root {
+  --bg: #f2efe7;
+  --bg-accent: #ece4d2;
+  --text: #1f1e1a;
+  --text-muted: #5f5a50;
+  --panel-bg: rgba(255, 253, 248, 0.88);
+  --panel-border: rgba(66, 61, 48, 0.14);
+  --accent-strong: #8d5c1a;
+  color-scheme: light;
+  font-family: 'Sora', 'Avenir Next', 'Segoe UI', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 18% 10%, #ffefc8 0%, transparent 30%),
+    radial-gradient(circle at 84% 0%, #c5d9ff 0%, transparent 32%),
+    linear-gradient(140deg, var(--bg), var(--bg-accent));
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 34px 18px 44px;
+}
+
+@media (max-width: 720px) {
+  .app-shell {
+    padding: 20px 12px 30px;
+  }
+}
